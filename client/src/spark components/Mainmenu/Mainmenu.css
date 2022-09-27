@@ -1,0 +1,103 @@
+.Main_Area{
+    width:50%;  
+}
+.Home{
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+    background-color: white;
+
+}
+.home{
+    font-size: 1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Create_Post{
+    height: 9rem;
+    display: grid;
+    background-color: white;
+    border:1px grey solid;
+    border-radius: 25px;
+    padding: .5rem;
+}
+.Add_text{
+    display: flex;
+    align-items: center;
+}
+input[type="Post"]{
+    height: 2rem;
+    border-top: none;
+    border-bottom:none;
+    border-left:none;
+    border-right:none;
+    width:400px;
+}
+input::placeholder{
+    font-size: 1rem;
+}
+.Btns{
+    display: flex;
+    justify-content: space-between;
+}
+.Icon{
+    display: flex;
+}
+.Icon >  div{
+    padding: 0 12px;
+}
+.btn-spark{
+     background-color: green;
+     color:white;
+     border:none;
+     height: 2rem;
+     padding: 0 18px;
+     border-radius: 1rem;
+     font-size: 1rem;     
+}
+.posted_area{
+    border: 1px grey solid;
+    border-radius: 25px;
+    margin-top: 1rem;
+
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+
+}
+.User_Detail{
+    display: flex;
+    align-items: center;
+}
+.User_Detail > div {
+    padding: 0 2px;
+}
+.User_Name{
+    font-size: .9rem;
+    font-weight: 600;
+}
+.User_id{
+    font-size: .8rem ;
+}
+.Quotes{
+    padding:.5rem;
+
+}
+.Profile_images{
+    padding: .5rem;
+}
+.Comment_Section{
+    display: flex;
+    justify-content: space-around;
+    height: 2rem;
+    align-items: center;
+}
+@media screen and (max-width: 600px) {
+    .Main_Area {
+     width:100%;
+    }
+  
+  }
+

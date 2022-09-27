@@ -1,0 +1,93 @@
+.Sidebar_Area{
+    width:20%;
+    display: grid;
+    height: 40rem;
+    justify-content: center;
+    margin-left: 70px;   
+}
+.Sidebar_Area > div{
+    margin-top: 15px;
+}
+.Icons{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.Icons > div {
+    margin: 0 12px;
+}
+.Icons:hover{
+    color: coral;
+}
+.btn{
+    background-color: green;
+    color:white;
+    width:100%;
+    padding: 6px 12px;
+    border:none;
+    border-radius: 25px;
+    font-size: 1rem;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+    border-radius: 7px;
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li{
+    float: left;
+  }
+  
+  li span {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 16px;
+    text-decoration: none;
+  }
+  
+li span:hover:not(.active) {
+    background-color: lightgreen;
+    
+}
+.active {
+    background-color: #04AA6D;
+  }
+  .Topnavbar{
+      display: none;
+  }
+@media screen and (max-width: 992px) {
+    .Sidebar_Area{
+     width: 20%;
+     }
+    .Topnavbar{
+        display: none;
+    }
+    .Icons{
+        display: flex;
+        align-items: center;
+        font-size: .9rem;
+        font-weight: 600;
+    }
+  
+}
+ 
+ @media screen and (max-width: 480px) {
+    .Sidebar_Area{
+     display: none;
+    }
+    .Topnavbar{
+        display: flex;
+    }
+    .Icons:hover{
+        color: black;
+    }
+  }

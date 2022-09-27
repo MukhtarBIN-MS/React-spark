@@ -1,0 +1,28 @@
+html{
+    font-size:92.5%;
+    box-sizing:border-box;
+}
+body{
+    margin:0%;
+    font:1rem helvatica;
+    height: 100vh;
+}
+.App{
+    display:grid;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.Main{
+    display: flex;
+    justify-content:  space-between ;
+    margin: 12px 12px;
+}
+
+/* sidebar*/
+
+
+/*Main_area */
+
+
+
+/*Left side bar */
